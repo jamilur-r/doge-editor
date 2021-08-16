@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-import { ExampleComponent } from 'doge-editor'
+import { DogeEditor} from 'doge-editor'
 import 'doge-editor/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  const [data, setData] = useState([])
+  return <DogeEditor data={data} setData={setData} />
 }
 
 export default App

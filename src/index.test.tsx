@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import { DogeEditor } from '.'
 
-describe('ExampleComponent', () => {
+describe('DogeEditor', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(DogeEditor).toBeTruthy()
   })
 })
