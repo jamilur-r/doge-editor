@@ -9,6 +9,9 @@
 ```bash
 npm install --save doge-editor
 ```
+<video width="320" height="240" controls>
+  <source src="./doge.mp4" type="video/mp4">
+</video>
 
 ## Usage
 
